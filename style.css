@@ -1,0 +1,86 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  
+  
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ /*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=7668e0&c2=e56363&gt=l&gd=dcr
+*/
+
+background-image: linear-gradient(to right, #3ee2b4,#ab3dd1);
+  
+   
+  
+}
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  
+  border-radius: 8px;
+  padding: 60px 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+
+
+
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  z-index: 10000;
+  
+}
+.button button {
+  padding: 0.5rem 1.2rem;
+  border-radius: 20px;
+  outline: none;
+  font-size: 1.1rem;  
+  background: black;
+  color:white;
+  border: none;
+  transition: all 0.3s ease;
+  
+}
+button:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  scale: 1.02;
+}
+.button button:nth-child(2) {
+  background: white;
+  color:black;
+  margin-left: 20px;
+  
+}
+.code {
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+  padding: 12px 18px;
+  border-radius: 20px;
+  background: white;
+  color:black;
+  transition: all 0.3s ease;
+  z-index: 10000;
+  
+}
+.code:hover {
+  background: #333;
+  color:white;
+}
+h1 {
+  color:white;
+}
